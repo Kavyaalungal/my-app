@@ -1,0 +1,178 @@
+.card{
+    border: 1px  black;
+    border-radius: 10px;
+    width: 50%;
+    /* text-align: center; */
+    margin: auto;
+    padding-bottom: 3%;
+    background-color: white;
+    box-shadow: 2px 0px 5px 4px rgba(0,0,0,0.75);
+}
+.all{
+    text-align: center;
+}
+input,select,textarea{
+    border-radius: 6px;
+    /* border: none; */
+}
+.all h1{
+    color: rgb(74, 74, 148);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.search{
+    text-align: center;
+    /* display: flex; */
+    margin-top: 5%;
+    width: 100%;
+    /* background-color: red; */
+}
+.search button{
+    /* padding: px 30px; */
+    border-radius: 5px;
+    border: none;
+    margin-left: 2%;
+ 
+    background-color:rgb(74, 74, 148) ;
+    color: white;
+    padding: 8px 20px;
+}
+.search button:hover{
+    background-color: white;
+    border: 1px solid rgb(74, 74, 148);
+    color: rgb(74, 74, 148);
+}
+/* .search input{
+    padding: 7px;
+    width: 100%;
+    margin-left: 20px;
+} */
+#searchs{
+    /* padding: 1px 1px 1px 1px; */
+}
+.search label{
+    margin-left: 20px;
+}
+.id{
+    margin-top: 5%;
+   margin-right: 20px;
+    text-align: right;
+}
+.id input{
+    width: 20%;
+}
+.uhid{
+    width: 15%;
+    
+}
+.heading{
+    text-align: start;
+    
+    margin-left: 3%;
+}
+.heading h3{
+    color: white;
+}
+.name{
+    margin-left: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+.name select{
+    padding: 0px 3px 0px 3px ;
+}
+.name input{
+    margin-left: 4%;
+    /* padding: 8px 8px; */
+    width: 70%;
+}
+.names{
+    width: 70%;
+    
+}
+.dates{
+    width: 30%;
+}
+.detail{
+    margin-top: 4%;
+    margin-left: 4%;
+    
+}
+.gender{
+    display: flex;
+    gap: 20px;
+}
+.dob{
+    margin-left: 2%;
+    padding: 8px 8px;
+    width: 50%;
+}
+.dd,.mm,.yy{
+    margin-left: 2%;
+    width: 12%;
+}
+
+.sec-detail{
+    margin-top: 5%;
+    display: flex;
+    width: 100%;
+    gap: 10%;
+    /* justify-content: space-around; */
+    margin-left: 6%;
+}
+.phone{
+    margin-left: 2%;
+    padding: 8px 8px;
+    width: 40%;
+}
+.email{
+    /* margin-left: 3%; */
+    /* padding: 8px 8px; */
+    /* margin-top: 3%; */
+    /* width: 70%; */
+}
+.emails{
+    width: 100%;
+}
+.address{
+    margin-top: 4%;
+    margin-left: 4%;
+}
+.address textarea{
+    margin-left: 2%;
+    padding: 8px 8px;
+    width: 85%;
+}
+.address label{
+    margin-left: 2%;
+}
+.adresses{
+    width: 89%;
+}
+.add-detail{
+    text-align: right;
+    margin: 2% 3% 0% 0%;
+}
+.buttons{
+    margin-top: 3%;
+    text-align: center;
+}
+.buttons button{
+    padding: 8px 20px;
+    margin-left: 4%;
+    background-color: white;
+    color: rgb(74, 74, 148);
+    border: 1px solid rgb(74, 74, 148);
+    border-radius: 5px;
+}
+.close{
+    text-align: end;
+    margin-top: 1%;
+    margin-right: 3%;
+}
+.buttons button:hover{
+    background-color: rgb(74, 74, 148);
+    color: white;
+    transition: .2s;
+}
